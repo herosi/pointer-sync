@@ -1,0 +1,32 @@
+---
+title: "Pointer-sync Example"
+author: "Hiroshi Suzuki"
+mathjax: false
+overview: false
+menu: false
+progress: false
+format:
+  revealjs: default
+revealjs-plugins:
+  - pointer-sync
+---
+
+## Description
+
+This is a simple pointer plugin that synchronizes the pointer between the speaker view and the main window.
+
+![](pointer-sync-demo.gif)
+
+## Usage
+
+1. Add this plugin to the front matter of a `.qmd` file or `_quarto.yaml`, as shown below.
+
+   ``` yaml
+   revealjs-plugins:
+     - pointer-sync
+   ```
+
+2. Open an HTML that quarto rendered with this plugin.
+3. Open the speaker view by pressing 'S'.
+4. Hold 'Ctrl' to display the pointer.
+5. To disable the pointer, press 'Alt' + 'P'.
