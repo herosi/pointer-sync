@@ -29,5 +29,5 @@ If you're using version control, you will want to check in this directory.
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd). View an example presentation at [example.html](demo/example.html). Hold 'Ctrl' to display the pointer.
+Here is the source code for a minimal example: [example.qmd](example.qmd). View an example presentation at [example.html](https://herosi.github.io/pointer-sync/demo/example.html). Hold 'Ctrl' to display the pointer.
 
