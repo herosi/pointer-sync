@@ -1,0 +1,12 @@
+{
+  "Reveal plugin setup": {
+    "prefix": "config",
+    "body": [
+      "format:",
+      "  revealjs: default",
+      "revealjs-plugins:",
+      "  - pointer-sync"
+    ],
+    "description": "Insert a minimal revealjs config with synchronized pointer support."
+  }
+}
