@@ -217,7 +217,7 @@ window.RevealPointerSync = (function() {
       
       document.addEventListener('keydown', (event) => {
         const ctrlKey = isMac ? event.metaKey : event.ctrlKey;
-        if (event.key === 'p' && event.altKey) {
+        if (event.code === 'KeyP' && event.altKey) {
           event.preventDefault();
           event.stopPropagation();
           flagstr = isPointerDisabled ? "en" : "dis";
@@ -242,9 +242,11 @@ window.RevealPointerSync = (function() {
 
       setKeepAlive(windowType);
       
+      const holdKey = isMac ? 'Cmd' : 'Ctrl';
+      const altKey  = isMac ? 'Option' : 'Alt';
       console.log(`[${windowType}] 💡 Press 'S' to open speaker view`);
-      console.log(`[${windowType}] 💡 Press 'Ctrl' and move mouse to show the laser pointer`);
-      console.log(`[${windowType}] 💡 Press 'Alt' + 'P' to enable/disable the laser pointer`);
+      console.log(`[${windowType}] 💡 Hold '${holdKey}' and move mouse to show the laser pointer`);
+      console.log(`[${windowType}] 💡 Press '${altKey}' + 'P' to enable/disable the laser pointer`);
     }
   };
 

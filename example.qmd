@@ -27,6 +27,12 @@ This is a simple pointer plugin that synchronizes the pointer between the speake
    ```
 
 2. Open an HTML that quarto rendered with this plugin.
-3. Open the speaker view by pressing 'S'.
-4. Hold 'Ctrl' to display the pointer.
-5. To disable the pointer, press 'Alt' + 'P'.
+3. Use the keys on the next slide.
+
+## Keys {.smaller}
+
+| Action | Windows / Linux | macOS |
+| --- | --- | --- |
+| Open the speaker view | `S` | `S` |
+| Show the pointer (hold while moving the mouse) | `Ctrl` | `⌘ Cmd` |
+| Enable / disable the pointer | `Alt` + `P` | `⌥ Option` + `P` |
