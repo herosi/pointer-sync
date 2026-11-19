@@ -217,7 +217,7 @@ window.RevealPointerSync = (function() {
       
       document.addEventListener('keydown', (event) => {
         const ctrlKey = isMac ? event.metaKey : event.ctrlKey;
-        if (event.key === 'p' && event.altKey) {
+        if (event.code === 'KeyP' && event.altKey) {
           event.preventDefault();
           event.stopPropagation();
           flagstr = isPointerDisabled ? "en" : "dis";
