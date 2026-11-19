@@ -242,9 +242,11 @@ window.RevealPointerSync = (function() {
 
       setKeepAlive(windowType);
       
+      const holdKey = isMac ? 'Cmd' : 'Ctrl';
+      const altKey  = isMac ? 'Option' : 'Alt';
       console.log(`[${windowType}] 💡 Press 'S' to open speaker view`);
-      console.log(`[${windowType}] 💡 Press 'Ctrl' and move mouse to show the laser pointer`);
-      console.log(`[${windowType}] 💡 Press 'Alt' + 'P' to enable/disable the laser pointer`);
+      console.log(`[${windowType}] 💡 Hold '${holdKey}' and move mouse to show the laser pointer`);
+      console.log(`[${windowType}] 💡 Press '${altKey}' + 'P' to enable/disable the laser pointer`);
     }
   };
 

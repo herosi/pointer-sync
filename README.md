@@ -23,11 +23,15 @@ If you're using version control, you will want to check in this directory.
    ```
 
 2. Open an HTML that quarto rendered with this plugin.
-3. Open the speaker view by pressing 'S'.
-4. Hold 'Ctrl' to display the pointer.
-5. To disable the pointer, press 'Alt' + 'P'.
+3. Use the keys below.
+
+| Action | Windows / Linux | macOS |
+| --- | --- | --- |
+| Open the speaker view | `S` | `S` |
+| Show the pointer (hold while moving the mouse) | `Ctrl` | `⌘ Cmd` |
+| Enable / disable the pointer | `Alt` + `P` | `⌥ Option` + `P` |
 
 ## Example
 
-Here is the source code for a minimal example: [example.qmd](example.qmd). View an example presentation at [example.html](https://herosi.github.io/pointer-sync/demo/example.html). Hold 'Ctrl' to display the pointer.
+Here is the source code for a minimal example: [example.qmd](example.qmd). View an example presentation at [example.html](https://herosi.github.io/pointer-sync/demo/example.html). Hold 'Ctrl' ('⌘ Cmd' on macOS) to display the pointer.
 
